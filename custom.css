@@ -1,0 +1,22 @@
+.bg-WhatsApp{
+    background-color: #1ebea5;
+    color: white;
+}
+
+.content{
+    margin-left: auto;
+    margin-right: auto;  
+    padding-top: 4%;
+    text-align: center;
+}
+
+
+
+.list{
+    list-style-type: none;
+}
+
+.footer{
+    text-align: center;
+    background-color: #1ebea5;
+}
