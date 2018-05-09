@@ -27,12 +27,11 @@
             <div class="row">
                     <div class="content">
                             <h2>Send WhatsApp messages to yourself!!!</h2>
+                            <h4><i>(and to people who are not in your contacts)</i></h4>
                             <p>
-                                Fill in the form below in order to send a WhatsApp to yourself: 
                                 <ul class="list">
                                     <li>Include country code</li>
-                                    <li>Make sure to fill in all fields</li>
-                                    <li>Phone number must be in following format: 15362727382</li>
+                                    <li>Make sure to fill in all required fields</li>
                                     <li>Make sure WhatsApp is <a href="https://play.google.com/store/apps/details?id=com.whatsapp">installed</a></li>
                                 </ul>
                             </p>
@@ -44,21 +43,24 @@
               <div class="row">
                   <div class="content">
                         <form id="WhatsApp-request">
-                            <div class="form-group">
-                               <select id="country-codes" class="form-control">
+                            <div class="form-group inline-form">
+                               <select id="country-codes" class="form-control codes">
 
                                </select>
-                              <input type="text" class="form-control" name="phone" placeholder="Fill in your own phonenumber" required>
+                              <input type="text" class="form-control phone" name="phone" placeholder="Fill in your own phonenumber" required>
                             </div>
                             <div class="form-group">
-                                <textarea rows="5" cols="50" type="text" placeholder="Your personal message..." name="msg" required></textarea>
-                                <i>Optional</i>
+                                <textarea rows="5" cols="50" type="text" placeholder="Your personal message... (Optional)" name="msg" required></textarea>
                             </div>
                         </form>
                         <button onclick="sendWhatsApp()" class="btn btn-lg btn-success">GO</button>
                   </div>
               </div>
       </div>
+
+      <footer>
+          &copy;Made by <a href="http://stevenkoerts.nl/">Steven Koerts</a> | All rights reserved
+      </footer>
     
 
 
