@@ -10,8 +10,8 @@ function sendWhatsApp(){
     if(phone.length > 0 && checkPhone(phone)){
         document.location.replace(url)
     }else{
-        document.getElementById("error").className = "alert alert-danger"
-        document.getElementById("error").innerHTML = "<strong>Fail</strong> Please fill in form correctly."
+        document.getElementById("error").className = "alert alert-warning alert-dismissible"
+        document.getElementById("error").innerHTML = "<button type='button' class='close' data-dismiss='alert'>&times;</button><strong>Fail</strong> Please fill in form correctly."
     }
 
     

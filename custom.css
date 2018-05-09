@@ -1,3 +1,7 @@
+body{
+    background-image: url("bg-whapp.png");
+}
+
 .bg-WhatsApp{
     background-color: #1ebea5;
     color: white;
